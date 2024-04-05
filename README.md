@@ -8,6 +8,7 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
+| 202209150008  |  Brenda Mendes Araujo |
 | 202208384986  |  Beatriz Vieira |
 | 202208385486  |  Guilherme Almeida |
 | 202302937314  |  Ian Esteves |
