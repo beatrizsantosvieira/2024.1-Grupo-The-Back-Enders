@@ -1,6 +1,6 @@
-# <strong>Projeto-Back-End</strong>
+# Projeto-Back-End
 
-# <strong>NomedoProjeto</strong>
+# NomedoProjeto
 
 **Número do Grupo**: The Back-Enders<br>
 **Código da Disciplina**: FGA0208-T01<br>
