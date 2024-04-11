@@ -17,6 +17,18 @@
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
 
+# <strong>🗃️ 5W2H:</strong>
+
+Perguntas | Definições
+--------------------------------|------------------------------------------------------------
+Quem? | .
+O que? | .
+Quando? | .
+Onde? | .
+Por que? | .
+Quanto? | .
+Como? |.
+
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
 
