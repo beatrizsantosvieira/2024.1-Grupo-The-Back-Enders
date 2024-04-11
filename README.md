@@ -28,7 +28,7 @@
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
 
-# <strong>🗃️ 5W2H:</strong>
+# <strong>5W2H:</strong>
 
 Perguntas | Definições
 --------------------------------|------------------------------------------------------------
