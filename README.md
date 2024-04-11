@@ -22,9 +22,9 @@ Descreva o seu projeto em linhas gerais.
 Perguntas | Definições
 --------------------------------|------------------------------------------------------------
 Quem? | Clientes da empresa e usuários internos da Octa City. 
-O que? | ...
+O que? | Criação da API no back-end para acessar dados das cameras.
 Quando? | O projeto devera ser finalizado até o fim do priemrio semestre de 2024.
-Onde? | ...
+Onde? | Utilizando a biblioteca Jango, na linguagem de programação Python.
 Por que? | Aprimorar a experiência do usuário.
 Quanto? | Tempo investido pela equipe de desenvolvimento e pela equipe Octa City.
 Como? | Desenvolvido com as linguagem Python.
