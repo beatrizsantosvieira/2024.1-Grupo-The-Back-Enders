@@ -14,17 +14,6 @@
 | 202302937314  |  Ian Esteves |
 | 202307545333  |  João Gabriel Rodriguez |
 
-## 5W2H
-| pergunta | resposta |
-| -- | -- |
-| Quando  |  resposta |
-| Quem  |  resposta |
-| O que  |  resposta |
-| Porque  |  resposta |
-| Como  |  resposta |
-| Onde  |  resposta |
-| Quanto  |  resposta |
-
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
 
