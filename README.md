@@ -21,13 +21,13 @@ Descreva o seu projeto em linhas gerais.
 
 Perguntas | Definições
 --------------------------------|------------------------------------------------------------
-Quem? | .
-O que? | .
-Quando? | .
-Onde? | .
-Por que? | .
-Quanto? | .
-Como? |.
+Quem? | Clientes da empresa e usuários internos da Octa City. 
+O que? | ...
+Quando? | O projeto devera ser finalizado até o fim do priemrio semestre de 2024.
+Onde? | ...
+Por que? | Aprimorar a experiência do usuário.
+Quanto? | Tempo investido pela equipe de desenvolvimento e pela equipe Octa City.
+Como? | Desenvolvido com as linguagem Python.
 
 ## <strong>Screenshots</strong>
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
