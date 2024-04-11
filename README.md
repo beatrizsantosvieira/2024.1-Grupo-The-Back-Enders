@@ -1,7 +1,7 @@
 
-# Projeto OCTA CITY - The Back-Enders
+# Projeto Octa City 
 
-**Número do Grupo**: The Back-Enders<br>
+**Nome do Grupo**: The Back-Enders<br>
 **Código da Disciplina**: FGA0208-T01<br>
 
 ## <strong>Alunos</strong>
