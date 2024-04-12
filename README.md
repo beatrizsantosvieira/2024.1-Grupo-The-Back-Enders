@@ -14,7 +14,7 @@
 | 202307545333  |  João Gabriel Rodriguez |
 
 ## <strong>Sobre</strong>
-O projeto visa a criação da API no back-end para acessar dados das câmeras, e deverá ser finalizado até o fim do primeiro semestre de 2024, com utilização da biblioteca Jango, na linguagem de programação Python.
+Este projeto visa o desenvolvimento de um sistema de backend em parceria com prefeituras para detectar emergências, como alagamentos, por meio do uso de inteligência artificial e câmeras de segurança públicas. O foco principal é a criação da API no backend para acessar dados das câmeras. O projeto será finalizado até o fim do primeiro semestre de 2024, utilizando a biblioteca Django na linguagem de programação Python. Nosso objetivo é criar uma solução escalável, segura e de fácil utilização, fornecendo uma ferramenta robusta para auxiliar na tomada de decisões durante situações de crise.
 
 # <strong>5W2H:</strong>
 
