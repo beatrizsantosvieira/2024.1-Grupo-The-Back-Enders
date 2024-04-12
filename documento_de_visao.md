@@ -47,7 +47,7 @@ O Centro de Operações Rio é uma instalação pública do município do Rio de
 ### Produto
 
 <p align = "justify">
-O cliente poderá cadastrar....
+O cliente poderá monitorar alagamentos em tempo real.
 </p>
 
 ## Restrições
