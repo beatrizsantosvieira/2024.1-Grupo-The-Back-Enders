@@ -16,19 +16,19 @@ Desenvolver uma nova plataforma que permitirá criar parques de câmeras híbrid
 
 ### Problema
 
-Situaçaõ precária ...
+Alagamentos frequentes no estado do Rio de Janeiro.
 
 ### Impactados
 
-População carioca....
+População carioca.
 
 ### Consequência
 
-Vidas salvas....
+Mortes e acidentes.
 
 ### Solução
 
-Utilizar a aplicação que será desenvolvida visando mitigar a situação p...
+Utilizar a aplicação que será desenvolvida visando mitigar a situação alocando recursos de maneira ágil e eficaz.
 
 ## Objetivos
 
