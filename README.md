@@ -14,7 +14,7 @@
 | 202307545333  |  João Gabriel Rodriguez |
 
 ## <strong>Sobre</strong>
-O projeto visa a criação da API no back-end para acessar dados das câmeras, e deveré ser finalizado até o fim do priemrio semestre de 2024, com utilização da biblioteca Jango, na linguagem de programação Python.
+O projeto visa a criação da API no back-end para acessar dados das câmeras, e deverá ser finalizado até o fim do primeiro semestre de 2024, com utilização da biblioteca Jango, na linguagem de programação Python.
 
 # <strong>5W2H:</strong>
 
@@ -22,11 +22,11 @@ Perguntas | Definições
 --------------------------------|------------------------------------------------------------
 Quem? | Clientes da empresa e usuários internos da Octa City. 
 O que? | Criação da API no back-end para acessar dados das câmeras.
-Quando? | O projeto deverá ser finalizado até o fim do priemrio semestre de 2024.
+Quando? | O projeto deverá ser finalizado até o fim do primeiro semestre de 2024.
 Onde? | Utilizando a biblioteca Jango, na linguagem de programação Python.
 Por que? | Aprimorar a experiência do usuário.
 Quanto? | Tempo investido pela equipe de desenvolvimento e pela equipe Octa City.
-Como? | Desenvolvido com as linguagem Python.
+Como? | Desenvolvido com a linguagem Python.
 
 # <strong>Caso de Uso 1: Monitoramento de Alagamentos em Tempo Real</strong>
 
