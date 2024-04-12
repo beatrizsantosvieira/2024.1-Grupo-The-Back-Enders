@@ -43,7 +43,7 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 
 |Data|Horário de inicio|Horário de fim |Descrição
 ----|-----|-----|---------|
-|03/09/20 | 12:11| 12:38 | Entrevista realizada via hangouts.|
+|03/09/20 | 12:11| 12:38 | Entrevista realizada via Teams.|
 
 <br>
 <br>
