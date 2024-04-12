@@ -32,7 +32,7 @@ O Kanban é técnica que propõe a utilização de cartões em um quadro...
  
 <p align = "justify">
  
-Com o estudo das metodologias.....
+Com o estudo das metodologias nosso grupo decidiu por usar Kanban e Scrum.
  
 </p>
  
@@ -46,10 +46,4 @@ Com o estudo das metodologias.....
  
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 05/mm/xx | 1.0 | Criação  | xxx xxx e xxxxx xxxxx |
-| 06/mm/xx | 1.1 | Adicionado  | xxx xxxx e xxxxx xxxx |
-| 06/mm/XX | 1.2 | Adicionado  | xxx xxxx e xxxxxx xxxxxx |
-| 06/mm/xx | 1.3 | Adicionado xxxx | xxx xxxx e xxxx xxxxx |
-| 06/mm/xx | 1.4 | Adicionadoxxxx | xxxx xxxxx e xxxx xxxxx |
-| mm/mm/xx | 1.5 | Revisão do documento | xxxx xxxxx |
-| mm/mm/xx | 1.6 | Ajuste no topico Scrum | xxxx xxxx e xxxx xxxx |**
+| 12/04/2024 | 1.0 | Criação do documento | xxx xxx e xxxxx xxxxx |**
