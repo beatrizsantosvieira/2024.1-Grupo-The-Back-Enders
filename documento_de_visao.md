@@ -20,7 +20,7 @@ Alagamentos frequentes no estado do Rio de Janeiro.
 
 ### Impactados
 
-População carioca.
+População carioca e niteroense.
 
 ### Consequência
 
