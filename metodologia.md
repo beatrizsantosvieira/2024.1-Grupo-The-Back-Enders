@@ -15,9 +15,7 @@ A equipe utiliza vários métodos e técnicas de diversas metodologias, processo
  
 ## Metodologias de desenvolvimento:
  
-### Scrum
-
-### Kanban
+### Scrum & Kanban
  
 <p align = "justify">
 O Kanban é técnica que propõe a utilização de cartões em um quadro...
