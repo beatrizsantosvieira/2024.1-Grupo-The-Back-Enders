@@ -39,22 +39,10 @@ O objetivo da equipe de desenvolvimento é fornecer...
 ## Descrição do Usuário 
 
 <p align = "justify">
-Os usuários serão....
+O Centro de Operações Rio é uma instalação pública do município do Rio de Janeiro, que é considerado o quartel-general das equipes operacionais da prefeitura.
 </p>
 
 ## Recursos do produto
-
-### Conta
-
-<p align = "justify">
-O cliente poderá realizar seu cadastro....
-</p>
-
-### Loja
-
-<p align = "justify">
-O cliente poderá cadastrar uma loja única....
-</p>
 
 ### Produto
 
@@ -62,16 +50,10 @@ O cliente poderá cadastrar uma loja única....
 O cliente poderá cadastrar....
 </p>
 
-### Pesquisa sobre Lojas
-
-<p align = "justify">
-O cliente poderá pesquisar...
-</p>
-
 ## Restrições
 
 <p align = "justify">
-A aplicação não será responsável...
+A aplicação não será responsável por decisões governamentais, servirá somente como ferramenta de monitorização
 </p>
 
 ## Referências Bibliográficas
@@ -83,4 +65,4 @@ A aplicação não será responsável...
 ## Versionamento
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| DD/MM/YYYY | 1.0 | Criação do documento | XXX XXXX e ZZZ ZZZZ | 
+| 12/04/2024 | 1.0 | Criação do documento | Ian Esteves | 
