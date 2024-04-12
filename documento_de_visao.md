@@ -11,7 +11,7 @@ O propósito deste documento é fornecer uma visão geral sobre o projeto que se
 ## Descrição do Problema 
 
 <p align = "justify">
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+Desenvolver uma nova plataforma que permitirá criar parques de câmeras híbridos, aplicar lógicas de detecção e inteligência, capturar e armazenar dados de eventos e alertas, e gerar painéis/relatórios de visualização de dados. As funcionalidades incluem detecção, tracking, identificação, definição de ROl e grupos de pertencimento, contagem e estatística, detecção de movimento, screenshoot e agendamentos como gatilho para análise de conjuntos de frames.
 </p>
 
 ### Problema
