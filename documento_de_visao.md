@@ -33,7 +33,7 @@ Utilizar a aplicação que será desenvolvida visando mitigar a situação aloca
 ## Objetivos
 
 <p align = "justify">
-O objetivo da equipe de desenvolvimento é fornecer...
+O objetivo da equipe de desenvolvimento é fornecer uma API para ser implementada no sistema do Centro de Operações Rio
 </p>
 
 ## Descrição do Usuário 
