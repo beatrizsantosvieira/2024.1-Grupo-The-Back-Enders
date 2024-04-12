@@ -40,9 +40,9 @@ Com o estudo das metodologias.....
  
 ## Referências
  
-> [1] SCRUM, Disponivel em: [https://www....](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Portuguese-European.pdf)
+> [1] SCRUM, Disponivel em: https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Portuguese-European.pdf
  
-> [2] Sistema Kanban, Disponivel em: [https://www...](https://pt.wikipedia.org/wiki/Kanban)
+> [2] Sistema Kanban, Disponivel em: https://pt.wikipedia.org/wiki/Kanban
 
 ## Autor(es)
  
