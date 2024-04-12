@@ -41,9 +41,7 @@ Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento
 
 ## <strong>Instalação</strong>
 **Linguagens**: Python<br>
-**Tecnologias**: Django ou Yolov4<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
+**Tecnologias**: Django, OpenCV e, <strong>caso dê tempo</strong>, Yolov4 e Yolov8.<br>
 
 ## <strong>Uso</strong>
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
