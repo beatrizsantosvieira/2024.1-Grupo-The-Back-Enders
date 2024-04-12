@@ -13,41 +13,10 @@ A metodologia pode ser definida como a sistematização de métodos e técnicas 
 ## Metodologia
 A equipe utiliza vários métodos e técnicas de diversas metodologias, processos e práticas, para o desenvolvimento. Com o estudo e  experiência da equipe sobre as metodologias ágeis, foi possível identificar aspectos das diversas metodologias, que a equipe utiliza para o desenvolvimento do projeto.
  
-Metodologias, processos e práticas identificados:
- 
- 
-- [RUP/UP](https://www.../):<p align = "justify">
-RUP/UP é uma metodologia....
-</p>
- 
-- [POO (OOP Oriented Object Programming)](https://www....):<p align = "justify">
-POO (OOP) é uma...
-</p>
- 
-- [RUP (Rational Unified Process)](https://www....):<p align = "justify">
-O Rational Unified Process é um Processo de Engenharia de Software. Ele fornece....
-<p>
- 
-- [Kanban](https://www...):</p>
-   O sistema kanban é uma metodologia ágil....
-<p align = "justify">
- 
- 
 ## Metodologias de desenvolvimento:
  
-### Versão 1.0
- 
-### RUP (Rational Unified Process)
- 
-#### Práticas:
- 
-- **Desenvolvimento iterativo**: A
-abordagem iterativa é necessária para....
- 
-- **Verificação da qualidade de software**: A qualidade deve ser revista com
-respeito aos requisitos com base...
- 
- 
+### Scrum
+
 ### Kanban
  
 <p align = "justify">
@@ -71,17 +40,10 @@ Com o estudo das metodologias.....
  
 ## Referências
  
-> [1] SCRUM, Disponivel em: https://www....
+> [1] SCRUM, Disponivel em: [https://www....](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Portuguese-European.pdf)
  
-> [2] Sistema Kanban, Disponivel em: https://www...
- 
-> [3] Extreme Programming, Disponivel em: http://www...
+> [2] Sistema Kanban, Disponivel em: [https://www...](https://pt.wikipedia.org/wiki/Kanban)
 
-> [5] Rational Unified Process, Disponivel em: https://www...
- 
-> [6] EXTREME PROGRAMMING, Disponivel em: https://www...
- 
- 
 ## Autor(es)
  
 | Data | Versão | Descrição | Autor(es) |
