@@ -13,8 +13,6 @@ def camera_stream(request):
             if not ret:
                 break
 
-            # Realize o processamento do frame, se necessário
-
             _, buffer = cv2.imencode('.jpg', frame)
             frame_bytes = buffer.tobytes()
             yield (b'--frame\r\n'
