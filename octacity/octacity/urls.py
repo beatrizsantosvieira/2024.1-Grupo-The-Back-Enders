@@ -20,7 +20,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('octa.urls')) #esse eu adicionei para indicar que caso seja a página solo (a url sem o admin, sem nada) ela vai abrir essa página em específico
+    path('', include('octa.urls')), #esse eu adicionei para indicar que caso seja a página solo (a url sem o admin, sem nada) ela vai abrir essa página em específico
 ]
 
 #mostra o caminho para acessar o modo admin da página (admin/url)
