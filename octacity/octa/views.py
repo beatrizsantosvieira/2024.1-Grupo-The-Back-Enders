@@ -3,6 +3,8 @@ import cv2
 from django.http import StreamingHttpResponse
 from django.views.decorators import gzip
 
+#o gzip ajuda na compactação dos dados, resumindo, fica mais rapido pra transferir
+
 @gzip.gzip_page
 def camera_stream(request):
     cap = cv2.VideoCapture(0)  #0 para a primeira camera
