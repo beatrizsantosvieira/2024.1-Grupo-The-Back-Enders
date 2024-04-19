@@ -122,4 +122,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-#aqui é onde faz a config do bd
+#aqui é onde faz a config do bd, eu deixo padrão por motivos de - se funciona, não mexa
