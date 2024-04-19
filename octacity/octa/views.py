@@ -7,7 +7,7 @@ from django.views.decorators import gzip
 
 @gzip.gzip_page
 def camera_stream(request):
-    cap = cv2.VideoCapture(0)  # 0 para a primeira câmera disponível
+    cap = cv2.VideoCapture(0)  #0 para a primeira câmera disponível
 
 #essa função pega os frames da camera e transforma em jpg
     def generate_frames():
