@@ -3,9 +3,11 @@ import cv2
 from django.http import StreamingHttpResponse
 from django.views.decorators import gzip
 
+#o gzip ajuda na compactação dos dados, resumindo, fica mais rapido pra transferir
+
 @gzip.gzip_page
 def camera_stream(request):
-    cap = cv2.VideoCapture(0)  #0 como a primeira camera
+    cap = cv2.VideoCapture(0)  # 0 para a primeira câmera disponível
 
 #essa função pega os frames da camera e transforma em jpg
     def generate_frames():
@@ -19,7 +21,7 @@ def camera_stream(request):
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n')
 
-            #encerra o loop qnd preciona q
+            #encerre o loop se a tecla 'q' é apertada
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
 
