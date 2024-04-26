@@ -20,6 +20,8 @@ def camera_stream(request):
             frame_bytes = buffer.tobytes()
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n')
+            
+            #esse yield retorna cada frame do vídeo em bytes pra transmissão
 
             #encerre o loop se a tecla 'q' é apertada
             if cv2.waitKey(1) & 0xFF == ord('q'):
