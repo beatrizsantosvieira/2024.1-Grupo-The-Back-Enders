@@ -23,7 +23,7 @@ def camera_stream(request):
             
             #esse yield retorna cada frame do vídeo em bytes pra transmissão
 
-            #encerre o loop se a tecla 'q' é apertada
+            #encerre o loop se a tecla 'q' é apertada - não está funcionando, tem que ver 
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
 
