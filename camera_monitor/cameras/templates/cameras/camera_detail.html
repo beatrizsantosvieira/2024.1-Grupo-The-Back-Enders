@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Detail</title>
+</head>
+<body>
+    <h1>Camera Detail</h1>
+    <p><strong>Department:</strong> {{ camera.department }}</p>
+    <p><strong>Location:</strong> {{ camera.location }}</p>
+    <p><strong>Brand:</strong> {{ camera.brand }}</p>
+    <p><strong>Model:</strong> {{ camera.model }}</p>
+    <p><strong>Is Enabled:</strong> {% if camera.is_enabled %}Yes{% else %}No{% endif %}</p>
+    <p><strong>Specific Location:</strong> {{ camera.specific_location }}</p>
+    <p><strong>Compression Format:</strong> {{ camera.compression_format }}</p>
+    <p><strong>Network Stream Protocol:</strong> {{ camera.network_stream_protocol }}</p>
+    <p><strong>Username:</strong> {{ camera.username }}</p>
+    <p><strong>Password:</strong> {{ camera.password }}</p>
+    <p><strong>IP Address:</strong> {{ camera.ip_address }}</p>
+    <p><strong>Port:</strong> {{ camera.port }}</p>
+    <p><strong>Company:</strong> {{ camera.company }}</p>
+    <a href="{% url 'camera_update' camera.pk %}">Edit</a>
+    <form action="{% url 'camera_delete' camera.pk %}" method="post" style="display: inline;">
+        {% csrf_token %}
+        <button type="submit">Delete</button>
+    </form>
+    <a href="{% url 'camera_list' %}">Back to Camera List</a>
+    <img src="{% url 'video_feed' camera.pk %}" width="640" height="480">
+</body>
+</html>
