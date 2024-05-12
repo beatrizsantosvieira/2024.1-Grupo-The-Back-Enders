@@ -10,8 +10,8 @@ class Camera(models.Model):
     ip_address = models.CharField(max_length=100)
     compression_format = models.CharField(max_length=100)
     network_stream_protocol = models.CharField(max_length=100)
-    password = models.CharField(max_length=100)
     username = models.CharField(max_length=100)
+    password = models.CharField(max_length=100)
     port = models.IntegerField()
     company = models.CharField(max_length=100)
 
