@@ -4,6 +4,7 @@ from .forms import CameraForm
 import cv2
 from django.http import StreamingHttpResponse
 from django.views.decorators import gzip
+import urllib.parse
 
 def camera_list(request):
     cameras = Camera.objects.all()
@@ -43,15 +44,26 @@ def camera_delete(request, pk):
 
 @gzip.gzip_page
 def video_feed(request, pk):
-     # Obtém o objeto Camera com base no ID fornecido
+    # Obtém o objeto Camera com base no ID fornecido
     camera = get_object_or_404(Camera, pk=pk)
 
     # Endereço IP e porta da câmera
+    protocol = camera.network_stream_protocol.lower()
     camera_ip = camera.ip_address
     camera_port = camera.port
+    username = urllib.parse.quote(camera.username)
+    password = urllib.parse.quote(camera.password)
 
     # URL do fluxo de vídeo da câmera IP
-    video_url = f'http://{camera_ip}:{camera_port}/video'
+    match protocol:
+        case 'rtsp':
+            video_url = f'rtsp://{username}:{password}@{camera_ip}:{camera_port}/stream'
+        case 'http':
+            video_url = f'http://{username}:{password}@{camera_ip}:{camera_port}/video'
+        case 'https':
+            video_url = f'https://{username}:{password}@{camera_ip}:{camera_port}/video'
+        case _:
+            raise ValueError(f"Unsupported protocol: {protocol}")
 
     # Inicializa o objeto VideoCapture com a URL do fluxo de vídeo
     cap = cv2.VideoCapture(video_url)
