@@ -10,8 +10,8 @@ class Camera(models.Model):
     network_stream_protocol = models.CharField(max_length=100)
     ip_address = models.CharField(max_length=100)
     port = models.IntegerField()
-    username = models.CharField(max_length=100)
-    password = models.CharField(max_length=100)
+    username = models.CharField(max_length=100, blank=True)
+    password = models.CharField(max_length=100, blank=True)
     
     class Meta:
         app_label = 'cameras'
