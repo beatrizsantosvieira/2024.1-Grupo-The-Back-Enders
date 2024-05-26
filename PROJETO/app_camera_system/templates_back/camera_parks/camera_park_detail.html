@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Park Detail</title>
+</head>
+<body>
+    <h1>Camera Park Detail</h1>
+    <p><strong>Name:</strong> {{ camera_park.name }}</p>
+    <p><strong>Company:</strong> {{ camera_park.company }}</p>
+    <p><strong>Department:</strong> {{ camera_park.department }}</p>
+    <p><strong>Location:</strong> {{ camera_park.location }}</p>
+
+    <a href="{% url 'camera_park_update' camera_park.pk %}">Edit</a>
+    <form action="{% url 'camera_park_delete' camera_park.pk %}" method="post" style="display: inline;">
+        {% csrf_token %}
+        <button type="submit">Delete</button>
+    </form>
+    <a href="{% url 'camera_park_list' %}">Back to Camera Park List</a>
+</body>
+</html>

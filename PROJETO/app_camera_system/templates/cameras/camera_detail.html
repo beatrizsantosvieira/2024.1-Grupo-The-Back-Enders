@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <meta charset="UTF-8">
+    <title>Camera Detail</title>
+</head>
+<body>
+    <h1>{{ camera.brand }} {{ camera.model }}</h1>
+    <p>Specific Location: {{ camera.specific_location }}</p>
+    <p>Network Stream Protocol: {{ camera.network_stream_protocol }}</p>
+    <p>IP Address: {{ camera.ip_address }}</p>
+    <p>Port: {{ camera.port }}</p>
+    <p>Username: {{ camera.username }}</p>
+
+    <a href="{% url 'camera_update' camera.pk %}">Edit</a>
+    <form action="{% url 'camera_delete' camera.pk %}" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Delete">
+    </form>
+    <a href="{% url 'camera_park_detail' camera_park.pk %}">Back</a>
+    <img src="{% url 'video_feed' camera.pk %}" width="640" height="480">
+</body>
+</html>

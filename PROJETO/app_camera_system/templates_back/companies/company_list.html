@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company List</title>
+</head>
+<body>.
+    <h1>Company List</h1>
+    <a href="{% url 'company_create' %}">Add New Company</a>
+    <ul>
+        {% for company in companies %}
+            <li>
+                <a href="{% url 'company_detail' company.pk %}">{{ company.name }} - {{ company.sector }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

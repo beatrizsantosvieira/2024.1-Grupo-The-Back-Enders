@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <meta charset="UTF-8">
+    <title>Company Detail</title>
+</head>
+<body>
+    <h1>{{ company.name }}</h1>
+    <p>Sector: {{ company.sector }}</p>
+    <p>Address: {{ company.address }}</p>
+    <p>Phone: {{ company.phone }}</p>
+    <p>Email: {{ company.email }}</p>
+
+    <a href="{% url 'company_update' company.pk %}">Edit</a>
+    <form action="{% url 'company_delete' company.pk %}" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Delete">
+    </form>
+
+    <h2>Camera Parks</h2>
+    <a href="{% url 'camera_park_create' company.pk %}">Add Camera Park</a>
+    <ul>
+        {% for park in company.camera_parks.all %}
+            <li><a href="{% url 'camera_park_detail' park.pk %}">{{ park.name }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'company_list' %}">Back</a>
+</body>
+</html>
