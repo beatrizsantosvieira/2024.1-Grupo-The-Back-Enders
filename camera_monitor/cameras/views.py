@@ -5,6 +5,12 @@ import cv2
 from django.http import StreamingHttpResponse
 from django.views.decorators import gzip
 import urllib.parse
+from rest_framework import viewsets
+from .serializers import CameraSerializer
+
+class CameraViewSet(viewsets.ModelViewSet):
+    queryset = Camera.objects.all()
+    serializer_class = CameraSerializer
 
 def camera_list(request):
     cameras = Camera.objects.all()

@@ -12,6 +12,8 @@ class Camera(models.Model):
     port = models.IntegerField()
     username = models.CharField(max_length=100, blank=True)
     password = models.CharField(max_length=100, blank=True)
-    
+
+    def __str__(self):
+        return self.specific_location
     class Meta:
         app_label = 'cameras'
