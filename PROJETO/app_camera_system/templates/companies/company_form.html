@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <meta charset="UTF-8">
+    <title>{% if form.instance.pk %}Edit{% else %}New{% endif %} Company</title>
+</head>
+<body>
+    <h1>{% if form.instance.pk %}Edit{% else %}New{% endif %} Company</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Save">
+    </form>
+    <a href="{% url 'company_list' %}">Cancel</a>
+</body>
+</html>

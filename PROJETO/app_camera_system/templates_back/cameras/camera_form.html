@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if form.instance.pk %}Edit Camera{% else %}Add New Camera{% endif %}</title>
+</head>
+<body>
+    <h1>{% if form.instance.pk %}Edit Camera{% else %}Add New Camera{% endif %}</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Save</button>
+    </form>
+    <a href="{% url 'camera_list' %}">Cancel</a>
+</body>
+</html>

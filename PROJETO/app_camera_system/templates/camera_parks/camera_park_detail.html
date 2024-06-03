@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <meta charset="UTF-8">
+    <title>Camera Park Detail</title>
+</head>
+<body>
+    <h1>{{ camera_park.name }}</h1>
+    <p>Department: {{ camera_park.department }}</p>
+    <p>Location: {{ camera_park.location }}</p>
+
+    <a href="{% url 'camera_park_update' camera_park.pk %}">Edit</a>
+    <form action="{% url 'camera_park_delete' camera_park.pk %}" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Delete">
+    </form>
+
+    <h2>Cameras</h2>
+    <a href="{% url 'camera_create' camera_park.pk %}">Add Camera</a>
+    <ul>
+        {% for camera in camera_park.cameras.all %}
+            <li><a href="{% url 'camera_detail' camera.pk %}">{{ camera.brand }} {{ camera.model }}</a></li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'company_detail' company.pk %}">Back</a>
+</body>
+</html>
