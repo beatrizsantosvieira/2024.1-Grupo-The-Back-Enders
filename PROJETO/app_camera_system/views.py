@@ -119,6 +119,10 @@ def camera_delete(request, pk):
         return redirect('camera_park_detail', pk=camera.camera_park.pk)
     return render(request, 'cameras/camera_confirm_delete.html', {'camera': camera})
 
+def gallery_view(request):
+    cameras = Camera.objects.all()
+    return render(request, 'cameras/gallery.html', {'cameras': cameras})
+
 @gzip.gzip_page
 def video_feed(request, pk):
     # Obtém o objeto Camera com base no ID fornecido
