@@ -13,5 +13,4 @@ urlpatterns = [
     path('camera/<int:pk>/edit/', views.camera_update, name='camera_update'),
     path('camera/<int:pk>/delete/', views.camera_delete, name='camera_delete'),
     path('camera/<int:pk>/video_feed/', views.video_feed, name='video_feed'),
-    path('', include(router.urls)), # decidir qual vai ser a rota
 ]
