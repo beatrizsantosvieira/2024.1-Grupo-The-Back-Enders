@@ -1,22 +1,25 @@
-from django.shortcuts import render
-
-# Create your views here.
 from django.shortcuts import render, redirect, get_object_or_404
+from django.contrib.auth.decorators import login_required
 from .models import Company, CameraPark, Camera
 from .forms import CompanyForm, CameraParkForm, CameraForm
 import cv2
 from django.http import StreamingHttpResponse
 from django.views.decorators import gzip
 import urllib.parse
+from django.contrib.auth import authenticate, login
+from django.contrib.auth.models import User
 
+@login_required
 def company_list(request):
     companies = Company.objects.all()
     return render(request, 'companies/company_list.html', {'companies': companies})
 
+@login_required
 def company_detail(request, pk):
     company = get_object_or_404(Company, pk=pk)
     return render(request, 'companies/company_detail.html', {'company': company})
 
+@login_required
 def company_create(request):
     if request.method == 'POST':
         form = CompanyForm(request.POST)
@@ -27,6 +30,7 @@ def company_create(request):
         form = CompanyForm()
     return render(request, 'companies/company_form.html', {'form': form})
 
+@login_required
 def company_update(request, pk):
     company = get_object_or_404(Company, pk=pk)
     if request.method == 'POST':
@@ -38,6 +42,7 @@ def company_update(request, pk):
         form = CompanyForm(instance=company)
     return render(request, 'companies/company_form.html', {'form': form})
 
+@login_required
 def company_delete(request, pk):
     company = get_object_or_404(Company, pk=pk)
     if request.method == 'POST':
@@ -45,11 +50,13 @@ def company_delete(request, pk):
         return redirect('company_list')
     return render(request, 'companies/company_confirm_delete.html', {'company': company})
 
+@login_required
 def camera_park_detail(request, pk):
     camera_park = get_object_or_404(CameraPark, pk=pk)
     company = camera_park.company
     return render(request, 'camera_parks/camera_park_detail.html', {'camera_park': camera_park, 'company': company})
 
+@login_required
 def camera_park_create(request, company_id):
     company = get_object_or_404(Company, pk=company_id)
     if request.method == "POST":
@@ -63,6 +70,7 @@ def camera_park_create(request, company_id):
         form = CameraParkForm(initial={'company': company})
     return render(request, 'camera_parks/camera_park_form.html', {'form': form, 'company': company})
 
+@login_required
 def camera_park_update(request, pk):
     camera_park = get_object_or_404(CameraPark, pk=pk)
     company = camera_park.company
@@ -75,6 +83,7 @@ def camera_park_update(request, pk):
         form = CameraParkForm(instance=camera_park)
     return render(request, 'camera_parks/camera_park_form.html', {'form': form, 'camera_park': camera_park, 'company': company})
 
+@login_required
 def camera_park_delete(request, pk):
     camera_park = get_object_or_404(CameraPark, pk=pk)
     if request.method == "POST":
@@ -82,11 +91,13 @@ def camera_park_delete(request, pk):
         return redirect('company_detail', pk=camera_park.company.pk)
     return render(request, 'camera_parks/camera_park_confirm_delete.html', {'camera_park': camera_park})
 
+@login_required
 def camera_detail(request, pk):
     camera = get_object_or_404(Camera, pk=pk)
     camera_park = camera.camera_park
     return render(request, 'cameras/camera_detail.html', {'camera': camera, 'camera_park' : camera_park})
 
+@login_required
 def camera_create(request, camera_park_id):
     camera_park = get_object_or_404(CameraPark, pk=camera_park_id)
     if request.method == "POST":
@@ -100,6 +111,7 @@ def camera_create(request, camera_park_id):
         form = CameraForm(initial={'camera_park': camera_park})
     return render(request, 'cameras/camera_form.html', {'form': form, 'camera_park': camera_park})
 
+@login_required
 def camera_update(request, pk):
     camera = get_object_or_404(Camera, pk=pk)
     camera_park = camera.camera_park
@@ -112,6 +124,7 @@ def camera_update(request, pk):
         form = CameraForm(instance=camera)
     return render(request, 'cameras/camera_form.html', {'form': form, 'camera_park': camera_park})
 
+@login_required
 def camera_delete(request, pk):
     camera = get_object_or_404(Camera, pk=pk)
     if request.method == 'POST':
@@ -120,18 +133,15 @@ def camera_delete(request, pk):
     return render(request, 'cameras/camera_confirm_delete.html', {'camera': camera})
 
 @gzip.gzip_page
+@login_required
 def video_feed(request, pk):
-    # Obtém o objeto Camera com base no ID fornecido
     camera = get_object_or_404(Camera, pk=pk)
-
-    # Endereço IP e porta da câmera
     protocol = camera.network_stream_protocol.lower()
     camera_ip = camera.ip_address
     camera_port = camera.port
     username = urllib.parse.quote(camera.username)
     password = urllib.parse.quote(camera.password)
 
-    # URL do fluxo de vídeo da câmera IP
     match protocol:
         case 'rtsp':
             video_url = f'rtsp://{username}:{password}@{camera_ip}:{camera_port}/stream'
@@ -142,20 +152,21 @@ def video_feed(request, pk):
         case _:
             raise ValueError(f"Unsupported protocol: {protocol}")
 
-    # Inicializa o objeto VideoCapture com a URL do fluxo de vídeo
     cap = cv2.VideoCapture(video_url)
 
-    # Função para gerar frames do fluxo de vídeo
     def frame_generator():
         while True:
             ret, frame = cap.read()
             if not ret:
                 break
-            # Convertendo o frame em bytes
             _, buffer = cv2.imencode('.jpg', frame)
             frame_bytes = buffer.tobytes()
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n')
 
-    # Retorna a resposta HTTP com a transmissão de vídeo
     return StreamingHttpResponse(frame_generator(), content_type='multipart/x-mixed-replace; boundary=frame')
+
+@login_required
+def user_list(request):
+    users = User.objects.all()
+    return render(request, 'users/user_list.html', {'users': users})

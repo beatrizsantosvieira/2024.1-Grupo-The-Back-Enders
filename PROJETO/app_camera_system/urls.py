@@ -1,7 +1,11 @@
+from django.contrib.auth import views as auth_views
 from django.urls import path
 from . import views
 
 urlpatterns = [
+    path('login/', auth_views.LoginView.as_view(template_name='registration/login.html'), name='login'),
+    path('logout/', auth_views.LogoutView.as_view(), name='logout'),
+
     path('', views.company_list, name='company_list'),
     path('companies/<int:pk>/', views.company_detail, name='company_detail'),
     path('companies/new/', views.company_create, name='company_create'),
@@ -18,4 +22,6 @@ urlpatterns = [
     path('camera/<int:pk>/edit/', views.camera_update, name='camera_update'),
     path('camera/<int:pk>/delete/', views.camera_delete, name='camera_delete'),
     path('camera/<int:pk>/video_feed/', views.video_feed, name='video_feed'),
+
+    path('users/', views.user_list, name='user_list'),
 ]
