@@ -147,4 +147,4 @@ Através da aplicação da técnica, foi possível elicitar alguns dos primeiros
 ## Autor(es)
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| DD/MM/YYYY | 1.0 | Criação do documento | Brenda Mendes , João Rodriguez, Guilherme Almeida, Ian Esteves  |
+| DD/MM/YYYY | 1.0 | Criação do documento | Brenda Mendes , João Rodriguez, Guilherme Almeida, Ian Esteves, Bia Vieria  |
