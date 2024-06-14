@@ -19,7 +19,7 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
  
 ## Versão 1.0
  
-### Mapa mental 1
+### Mapa mental 
  
 ![Captura de tela 2024-06-14 133455](https://github.com/beatrizsantosvieira/2024.1-Grupo-The-Back-Enders/assets/142420384/40a89538-b5e2-4f4a-8771-d83139189a54)
  
@@ -70,9 +70,6 @@ Este é o nó central que representa o projeto como um todo.
    - Geração de relatórios para análise e decisões informadas.
 5. **Equipe** apresenta os membros responsáveis pelo desenvolvimento do projeto.
 
-### Mapa mental 2
- 
-[![Mapa mental Brainstorm](../assets/Mapas_mentais/...png)](assets/Mapas_mentais/....png)
  
 ## Conclusão
  
@@ -81,11 +78,9 @@ O mapa mental é uma ficha de estudos que ajuda a dar uma visão geral do tema, 
 </p>
  
 ## Referências
-> Mapa MentalXXX, Disponível em: https://www.....
  
-> Ferramentas para Mapas Mentais. Disponível em: https://www....
+> Ferramentas para Mapas Mentais. Disponível em: https://www.mindmeister.com/app/map/3323842217
  
-> Plataforma para usuários colaborar no desenho... Disponível em: https://...
  
 ## Versionamento
 | Data     | Versão | Descrição             | Autor(es)               |
