@@ -21,8 +21,8 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
  
 ### Mapa mental 1
  
-[![Mapa mental Entrevista](../assets/Mapas_mentais/....png)](../assets/Mapas_mentais/...png)
- 
+![Captura de tela 2024-06-14 133455](https://github.com/beatrizsantosvieira/2024.1-Grupo-The-Back-Enders/assets/142420384/40a89538-b5e2-4f4a-8771-d83139189a54)
+
  
 ### Mapa mental 2
  
