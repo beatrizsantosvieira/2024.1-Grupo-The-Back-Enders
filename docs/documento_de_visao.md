@@ -56,12 +56,6 @@ O cliente poderá monitorar alagamentos em tempo real.
 A aplicação não será responsável por decisões governamentais, servirá somente como ferramenta de monitorização
 </p>
 
-## Referências Bibliográficas
-
-> Documento de visão. Disponível em https://www... Acesso em dd/MM/yyYY
-
-> Documento de visão. Disponível em  Acesso em dd/MM/yyYY
-
 ## Versionamento
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
