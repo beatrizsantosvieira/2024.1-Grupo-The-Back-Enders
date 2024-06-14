@@ -31,15 +31,15 @@ Este é o nó central que representa o projeto como um todo.
 
 ##### **Objetivo Principal**
 - **Detecção de emergências**
-  - Utilizar o sistema para identificar emergências, como alagamentos, em tempo real.
+  - Utilizar o sistema para identificar emergências em tempo real.
 - **Uso de IA e câmeras**
   - Integrar inteligência artificial e câmeras de segurança públicas para monitoramento e análise de situações urbanas.
 
 ##### **Tecnologia**
 - **Backend: Django, Python**
   - Utilizar o framework Django e a linguagem de programação Python para desenvolver o backend do sistema.
-- **Banco de Dados: PostgreSQL**
-  - Implementar o banco de dados PostgreSQL para armazenar e gerenciar os dados do sistema.
+- **Banco de Dados: SQLite3**
+  - Implementar o banco de dados SQLite3 para armazenar e gerenciar os dados do sistema.
 
 ##### **Funcionalidades**
 - **Cadastro de Câmeras**
@@ -59,11 +59,11 @@ Este é o nó central que representa o projeto como um todo.
 #### Explicação Geral:
 1. **Octa City Project** é o projeto global que visa melhorar o monitoramento urbano usando tecnologia avançada.
 2. **Objetivo Principal** define os principais propósitos do projeto:
-   - Detectar emergências como alagamentos em tempo real.
+   - Detectar emergências em tempo real.
    - Utilizar inteligência artificial e câmeras para um monitoramento eficaz.
 3. **Tecnologia** lista as ferramentas e tecnologias utilizadas:
    - Django e Python para o desenvolvimento do backend.
-   - PostgreSQL como banco de dados.
+   - SQLite3 como banco de dados.
 4. **Funcionalidades** descreve as principais características e capacidades do sistema:
    - Cadastro de câmeras no sistema.
    - Acesso aos dados das câmeras em tempo real.
