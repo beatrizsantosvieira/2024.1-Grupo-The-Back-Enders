@@ -22,19 +22,19 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via uma reunião v
 ### 1. Qual o objetivo principal da aplicação?
 
 <p align="justify">
-<b>Maria</b> - Deve ser uma plataforma onde qualquer pessoa possa gerenciar estacionamentos e câmeras de forma intuitiva.
+<b>Brenda</b> - Deve ser uma plataforma onde qualquer pessoa possa gerenciar estacionamentos e câmeras de forma intuitiva.
 </p>
 <p align="justify">
-<b>Carlos</b> - A plataforma deve fornecer uma interface amigável para o gerenciamento de usuários e permissões.
+<b>Ian</b> - A plataforma deve fornecer uma interface amigável para o gerenciamento de usuários e permissões.
 </p>
 <p align="justify">
 <b>João</b> - O objetivo da aplicação é facilitar a administração de estacionamentos e sistemas de câmeras.
 </p>
 <p align="justify">
-<b>Ana</b> - O principal objetivo da aplicação é a segurança e o monitoramento eficiente dos estacionamentos.
+<b>Ian</b> - O principal objetivo da aplicação é a segurança e o monitoramento eficiente dos estacionamentos.
 </p>
 <p align="justify">
-<b>Luiz</b> - A plataforma deve gerenciar câmeras, estacionamentos e empresas associadas de forma integrada.
+<b>Guilherme</b> - A plataforma deve gerenciar câmeras, estacionamentos e empresas associadas de forma integrada.
 </p>
 
 ---
@@ -42,19 +42,19 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via uma reunião v
 ### 2. Como será o processo para cadastrar um novo cliente?
 
 <p align="justify">
-<b>Maria</b> - O moderador deverá fazer login e acessar a seção de cadastro de clientes.
+<b>Brenda</b> - O moderador deverá fazer login e acessar a seção de cadastro de clientes.
 </p>
 <p align="justify">
 <b>João</b> - O cliente deverá preencher um formulário com informações básicas e enviar para aprovação.
 </p>
 <p align="justify">
-<b>Ana</b> - Com o usuário logado, ele deverá acessar a seção de clientes e preencher o formulário de cadastro.
+<b>Ian</b> - Com o usuário logado, ele deverá acessar a seção de clientes e preencher o formulário de cadastro.
 </p>
 <p align="justify">
-<b>Carlos</b> - O cliente deverá fornecer detalhes como nome, endereço, e contatos para cadastro.
+<b>Ian</b> - O cliente deverá fornecer detalhes como nome, endereço, e contatos para cadastro.
 </p>
 <p align="justify">
-<b>Luiz</b> - O cliente deverá confirmar o cadastro através de um link enviado por email.
+<b>Guilherme</b> - O cliente deverá confirmar o cadastro através de um link enviado por email.
 </p>
 
 ---
@@ -62,19 +62,19 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via uma reunião v
 ### 3. Como será a forma de adicionar produtos?
 
 <p align="justify">
-<b>Maria</b> - O cliente ao cadastrar o estacionamento, poderá adicionar produtos relacionados, como câmeras e sensores.
+<b>Brenda</b> - O cliente ao cadastrar o estacionamento, poderá adicionar produtos relacionados, como câmeras e sensores.
 </p>
 <p align="justify">
 <b>João</b> - O produto terá um formulário específico para cadastro, incluindo detalhes técnicos e preço.
 </p>
 <p align="justify">
-<b>Ana</b> - O produto deverá ser adicionado através de um menu dedicado dentro do perfil do cliente.
+<b>Ian</b> - O produto deverá ser adicionado através de um menu dedicado dentro do perfil do cliente.
 </p>
 <p align="justify">
-<b>Carlos</b> - O produto será vinculado ao estacionamento através de um identificador único.
+<b>Ian</b> - O produto será vinculado ao estacionamento através de um identificador único.
 </p>
 <p align="justify">
-<b>Luiz</b> - O produto poderá ser visualizado e gerenciado na seção de produtos do sistema.
+<b>Guilherme</b> - O produto poderá ser visualizado e gerenciado na seção de produtos do sistema.
 </p>
 
 ---
@@ -82,13 +82,13 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via uma reunião v
 ### 4. Outras perguntas pertinentes ao contexto
 
 <p align="justify">
-<b>Maria</b> - Com a localização do estacionamento, será possível gerar relatórios de ocupação.
+<b>Brenda</b> - Com a localização do estacionamento, será possível gerar relatórios de ocupação.
 </p>
 <p align="justify">
 <b>João</b> - O cliente poderá monitorar o status de cada câmera em tempo real.
 </p>
 <p align="justify">
-<b>Carlos</b> - O cliente poderá definir alertas para eventos específicos, como movimentação suspeita.
+<b>Ian</b> - O cliente poderá definir alertas para eventos específicos, como movimentação suspeita.
 </p>
 
 ---
@@ -96,19 +96,19 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via uma reunião v
 ### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos?
 
 <p align="justify">
-<b>Maria</b> - O cliente poderá adicionar produtos através de um painel de controle com opções de cadastro.
+<b>Brenda</b> - O cliente poderá adicionar produtos através de um painel de controle com opções de cadastro.
 </p>
 
 ### 6. Quais informações seriam interessantes para o cliente?
 
 <p align="justify">
-<b>Maria</b> - Informações sobre a quantidade de vagas disponíveis em tempo real.
+<b>Brenda</b> - Informações sobre a quantidade de vagas disponíveis em tempo real.
 </p>
 <p align="justify">
-<b>Carlos</b> - O cliente usuário poderá acessar informações detalhadas sobre a utilização das câmeras.
+<b>Guilherme</b> - O cliente usuário poderá acessar informações detalhadas sobre a utilização das câmeras.
 </p>
 <p align="justify">
-<b>Ana</b> - O usuário poderá ver relatórios de movimentação e eventos capturados pelas câmeras.
+<b>Ian</b> - O usuário poderá ver relatórios de movimentação e eventos capturados pelas câmeras.
 </p>
 
 ---
@@ -147,4 +147,4 @@ Através da aplicação da técnica, foi possível elicitar alguns dos primeiros
 ## Autor(es)
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| DD/MM/YYYY | 1.0 | Criação do documento | Brenda Mendes Araujo |
+| DD/MM/YYYY | 1.0 | Criação do documento | Brenda Mendes , João Rodriguez, Guilherme Almeida, Ian Esteves  |
