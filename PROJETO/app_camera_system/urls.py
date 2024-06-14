@@ -22,6 +22,7 @@ urlpatterns = [
     path('camera/<int:pk>/edit/', views.camera_update, name='camera_update'),
     path('camera/<int:pk>/delete/', views.camera_delete, name='camera_delete'),
     path('camera/<int:pk>/video_feed/', views.video_feed, name='video_feed'),
+    path('camera/gallery/', views.gallery_view, name='gallery_view'),
 
     path('users/', views.user_list, name='user_list'),
 ]

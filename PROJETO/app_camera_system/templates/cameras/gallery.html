@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .camera-video {
+            margin: 10px;
+            width: 320px;
+            height: 240px;
+            position: relative;
+        }
+        .camera-video video {
+            width: 100%;
+            height: 100%;
+        }
+        .camera-video a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <h1>Camera Gallery</h1>
+    <div class="gallery">
+        {% for camera in cameras %}
+            <div class="camera-video">
+                <video src="{{ camera.video_feed_url }}" controls></video>
+                <a href="{% url 'camera_detail' camera.pk %}"></a>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

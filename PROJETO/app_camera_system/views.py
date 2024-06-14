@@ -132,6 +132,11 @@ def camera_delete(request, pk):
         return redirect('camera_park_detail', pk=camera.camera_park.pk)
     return render(request, 'cameras/camera_confirm_delete.html', {'camera': camera})
 
+@login_required
+def gallery_view(request):
+    cameras = Camera.objects.all()
+    return render(request, 'cameras/gallery.html', {'cameras': cameras})
+
 @gzip.gzip_page
 @login_required
 def video_feed(request, pk):
