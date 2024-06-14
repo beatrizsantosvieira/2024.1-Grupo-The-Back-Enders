@@ -11,7 +11,7 @@ O propósito deste documento é fornecer uma visão geral sobre o projeto que se
 ## Descrição do Problema 
 
 <p align = "justify">
-Desenvolver uma nova plataforma que permitirá criar parques de câmeras híbridos, aplicar lógicas de detecção e inteligência, capturar e armazenar dados, e gerar painéis/relatórios de visualização de dados. As funcionalidades incluem e grupos de pertencimento, contagem e estatística, detecção de movimento, screenshoot e agendamentos como gatilho para análise de conjuntos de frames.
+Desenvolver uma nova plataforma que permitirá criar parques de câmeras híbridos, aplicar lógicas de detecção e inteligência, capturar e armazenar dados, e gerar painéis/relatórios de visualização de dados. As funcionalidades incluem grupos de pertencimento, contagem e estatística, detecção de movimento, screenshoot e agendamentos como gatilho para análise de conjuntos de frames.
 </p>
 
 ### Problema
@@ -21,24 +21,26 @@ Desenvolver uma nova plataforma que permitirá criar parques de câmeras híbrid
 <h2>Segurança Ineficaz</h2>
 
 <p>Muitos sistemas de câmeras existentes têm baixa qualidade de imagem, dificultando a identificação de indivíduos ou incidentes.
-Falta de cobertura completa em áreas críticas, deixando pontos cegos vulneráveis a atividades não detectadas.
-Alto Custo de Manutenção</p>
+Falta de cobertura completa em áreas críticas, deixando pontos cegos vulneráveis a atividades não detectadas.</p>
+
+<h2>Alto Custo de Manutenção</h2>
 
 <p>Sistemas tradicionais requerem manutenção frequente e substituição de peças, resultando em altos custos operacionais.
-A necessidade de técnicos especializados para manutenção e reparos aumenta ainda mais os custos.
-Complexidade de Instalação e Uso</p>
+A necessidade de técnicos especializados para manutenção e reparos aumenta ainda mais os custos.</p>
+
+<h2>Complexidade de Instalação e Uso</h2>
 
 <p>A instalação de sistemas de câmeras pode ser complexa e demorada, necessitando de profissionais treinados.
 Interfaces de usuário pouco intuitivas e sistemas difíceis de operar levam a erros humanos e subutilização das funcionalidades.</p>
-Falta de Integração
+
+<h2>Falta de Integração</h2>
 
 <p>Muitos sistemas não se integram bem com outras soluções de segurança, como alarmes e sensores de movimento.
 A falta de integração impede uma resposta rápida e coordenada a incidentes de segurança.</p>
   
 <h2>Conectividade e Acessibilidade Limitadas</h2>
 
-<p>Sistemas que não permitem acesso remoto ou em tempo real às imagens limitam a capacidade de monitoramento contínuo.
-Problemas de conectividade podem resultar em falhas na transmissão de dados importantes.</p>
+<p>Sistemas que não permitem acesso remoto ou em tempo real às imagens limitam a capacidade de monitoramento contínuo, resultando em falhas na transmissão de dados importantes.</p>
   
 <h1>Impacto dos Problemas</h1>
 
@@ -60,7 +62,7 @@ Problemas de conectividade podem resultar em falhas na transmissão de dados imp
 
 <h1>Necessidade de uma Solução Inovadora</h1>
 
-<h2>Tecnologia de Alta Qualidade</h2>h2>
+<h2>Tecnologia de Alta Qualidade</h2>
 
 <p>Há uma necessidade de sistemas de câmeras com alta resolução e tecnologia avançada para garantir imagens claras e detalhadas.</p>
 
@@ -99,7 +101,7 @@ O objetivo da equipe de desenvolvimento é fornecer uma API para ser implementad
 ## Descrição do Usuário 
 
 <p align = "justify">
-O usuário terá acesso ao jogo de câmeras presente em seu domínio, podendo adicionar ou retirar câmeras de seu parque.
+O usuário terá acesso ao parque de câmeras presente em seu domínio, podendo adicionar ou retirar câmeras de seu parque.
 </p>
 
 ## Recursos do produto
@@ -109,7 +111,7 @@ O usuário terá acesso ao jogo de câmeras presente em seu domínio, podendo ad
 ### Produto
 
 <p align = "justify">
-O cliente poderá monitorar imagens em tempo real.
+O cliente poderá monitorar imagens em tempo real, utilizando API's para análise e alertas.
 </p>
 
 ## Versionamento
