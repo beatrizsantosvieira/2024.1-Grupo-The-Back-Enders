@@ -39,4 +39,4 @@ Com o estudo das metodologias, nosso grupo decidiu por usar uma combinação de 
 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 12/06/2024 | 1.0 | Criação do documento | Brenda Mendes , João Rodriguez, Guilherme Almeida, Ian Esteves |
+| 12/06/2024 | 1.0 | Criação do documento | Brenda Mendes , João Rodriguez, Guilherme Almeida, Ian Esteves, Bia Vieira |

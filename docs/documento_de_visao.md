@@ -117,4 +117,4 @@ O cliente poderá monitorar imagens em tempo real, utilizando API's para anális
 ## Versionamento
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 12/04/2024 | 1.0 | Criação do documento | Ian Esteves | 
+| 12/04/2024 | 1.0 | Criação do documento | Ian Esteves, Bia Vieira | 
