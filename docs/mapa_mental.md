@@ -15,7 +15,7 @@ Mapa mental consiste em criar resumos cheios de símbolos, cores, setas e frases
 Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa mental. O documento foi produzido utilizando a ferramenta XMind.
 </p>
  
-## Mapa mental - Geral.
+## Mapa mental - Geral
  
 ## Versão 1.0
  
