@@ -109,3 +109,8 @@ if __name__ == '__main__':
 - Login seguro com verificação de credenciais
 - Recuperação de senha
 - Sessões de usuário com tempo de expiração configurável
+
+## Autor(es)
+| Data | Versão | Descrição | Autor(es) |
+| -- | -- | -- | -- |
+| DD/MM/YYYY | 1.0 | Criação do documento | Guilherme Almeida |
