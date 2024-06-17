@@ -7,16 +7,18 @@
         .gallery {
             display: flex;
             flex-wrap: wrap;
+            gap: 10px; /* Adds space between items */
         }
         .camera-video {
+            flex: 1 0 21%; /* Responsive flex item width */
             margin: 10px;
-            width: 320px;
-            height: 240px;
             position: relative;
+            box-sizing: border-box; /* Ensure padding and border are included in total width and height */
         }
-        .camera-video video {
+        .camera-video img, .camera-video video {
             width: 100%;
-            height: 100%;
+            height: auto; /* Maintain aspect ratio */
+            display: block;
         }
         .camera-video a {
             position: absolute;
@@ -34,7 +36,7 @@
     <div class="gallery">
         {% for camera in cameras %}
             <div class="camera-video">
-                <video src="{{ camera.video_feed_url }}" controls></video>
+                <img src="{% url 'video_feed' camera.pk %}" alt="Camera {{ camera.pk }}">
                 <a href="{% url 'camera_detail' camera.pk %}"></a>
             </div>
         {% endfor %}
